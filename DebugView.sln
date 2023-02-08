@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DebugView", "DebugView\DebugView.vcxproj", "{72A84B60-54D3-4079-8D6C-8EBE64ACE02C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{741EAE61-B3A0-4CCB-8749-1E663BAD7A09} = {741EAE61-B3A0-4CCB-8749-1E663BAD7A09}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DebugViewDLL", "DebugViewDLL\DebugViewDLL.vcxproj", "{741EAE61-B3A0-4CCB-8749-1E663BAD7A09}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "安装包", "安装包\安装包.isproj", "{5DEFD2B8-62D5-4957-ABD5-97CA756DC270}"
+	ProjectSection(ProjectDependencies) = postProject
+		{72A84B60-54D3-4079-8D6C-8EBE64ACE02C} = {72A84B60-54D3-4079-8D6C-8EBE64ACE02C}
+		{741EAE61-B3A0-4CCB-8749-1E663BAD7A09} = {741EAE61-B3A0-4CCB-8749-1E663BAD7A09}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Win32 = CD_ROM|Win32
+		Debug|Win32 = Debug|Win32
+		DVD-5|Win32 = DVD-5|Win32
+		Release|Win32 = Release|Win32
+		SingleImage|Win32 = SingleImage|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72A84B60-54D3-4079-8D6C-8EBE64ACE02C}.CD_ROM|Win32.ActiveCfg = Release|Win32
+		{72A84B60-54D3-4079-8D6C-8EBE64ACE02C}.CD_ROM|Win32.Build.0 = Release|Win32
+		{72A84B60-54D3-4079-8D6C-8EBE64ACE02C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{72A84B60-54D3-4079-8D6C-8EBE64ACE02C}.Debug|Win32.Build.0 = Debug|Win32
+		{72A84B60-54D3-4079-8D6C-8EBE64ACE02C}.DVD-5|Win32.ActiveCfg = Debug|Win32
+		{72A84B60-54D3-4079-8D6C-8EBE64ACE02C}.DVD-5|Win32.Build.0 = Debug|Win32
+		{72A84B60-54D3-4079-8D6C-8EBE64ACE02C}.Release|Win32.ActiveCfg = Release|Win32
+		{72A84B60-54D3-4079-8D6C-8EBE64ACE02C}.Release|Win32.Build.0 = Release|Win32
+		{72A84B60-54D3-4079-8D6C-8EBE64ACE02C}.SingleImage|Win32.ActiveCfg = Release|Win32
+		{72A84B60-54D3-4079-8D6C-8EBE64ACE02C}.SingleImage|Win32.Build.0 = Release|Win32
+		{741EAE61-B3A0-4CCB-8749-1E663BAD7A09}.CD_ROM|Win32.ActiveCfg = Release|Win32
+		{741EAE61-B3A0-4CCB-8749-1E663BAD7A09}.CD_ROM|Win32.Build.0 = Release|Win32
+		{741EAE61-B3A0-4CCB-8749-1E663BAD7A09}.Debug|Win32.ActiveCfg = Debug|Win32
+		{741EAE61-B3A0-4CCB-8749-1E663BAD7A09}.Debug|Win32.Build.0 = Debug|Win32
+		{741EAE61-B3A0-4CCB-8749-1E663BAD7A09}.DVD-5|Win32.ActiveCfg = Debug|Win32
+		{741EAE61-B3A0-4CCB-8749-1E663BAD7A09}.DVD-5|Win32.Build.0 = Debug|Win32
+		{741EAE61-B3A0-4CCB-8749-1E663BAD7A09}.Release|Win32.ActiveCfg = Release|Win32
+		{741EAE61-B3A0-4CCB-8749-1E663BAD7A09}.Release|Win32.Build.0 = Release|Win32
+		{741EAE61-B3A0-4CCB-8749-1E663BAD7A09}.SingleImage|Win32.ActiveCfg = Release|Win32
+		{741EAE61-B3A0-4CCB-8749-1E663BAD7A09}.SingleImage|Win32.Build.0 = Release|Win32
+		{5DEFD2B8-62D5-4957-ABD5-97CA756DC270}.CD_ROM|Win32.ActiveCfg = CD_ROM
+		{5DEFD2B8-62D5-4957-ABD5-97CA756DC270}.CD_ROM|Win32.Build.0 = CD_ROM
+		{5DEFD2B8-62D5-4957-ABD5-97CA756DC270}.Debug|Win32.ActiveCfg = DVD-5
+		{5DEFD2B8-62D5-4957-ABD5-97CA756DC270}.Debug|Win32.Build.0 = DVD-5
+		{5DEFD2B8-62D5-4957-ABD5-97CA756DC270}.DVD-5|Win32.ActiveCfg = DVD-5
+		{5DEFD2B8-62D5-4957-ABD5-97CA756DC270}.DVD-5|Win32.Build.0 = DVD-5
+		{5DEFD2B8-62D5-4957-ABD5-97CA756DC270}.Release|Win32.ActiveCfg = SingleImage
+		{5DEFD2B8-62D5-4957-ABD5-97CA756DC270}.Release|Win32.Build.0 = SingleImage
+		{5DEFD2B8-62D5-4957-ABD5-97CA756DC270}.SingleImage|Win32.ActiveCfg = SingleImage
+		{5DEFD2B8-62D5-4957-ABD5-97CA756DC270}.SingleImage|Win32.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
